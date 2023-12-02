@@ -49,7 +49,7 @@ void setup(){
   	//Pines de SALIDA
     pinMode(rotacionIzq, OUTPUT);
     pinMode(rotacionDer, OUTPUT);
-	pinMode(ledRojo, OUTPUT);
+    pinMode(ledRojo, OUTPUT);
     pinMode(ledVerde, OUTPUT);
   	//pinMode(alarma, OUTPUT);
   	

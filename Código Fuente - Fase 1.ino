@@ -26,7 +26,7 @@ void setup(){
   	//Pines de SALIDA
     pinMode(rotacionIzq, OUTPUT);
     pinMode(rotacionDer, OUTPUT);
-	pinMode(ledRojo, OUTPUT);
+    pinMode(ledRojo, OUTPUT);
     pinMode(ledVerde, OUTPUT);
   	//pinMode(alarma, OUTPUT);
   	
@@ -52,31 +52,4 @@ void loop() {
     	digitalWrite(ledRojo, izquierda);
     	digitalWrite(rotacionDer, derecha);
     	digitalWrite(ledVerde, derecha);
-}
-  
-      /*
-      
-     
-  	while(true){
-      
-      // Rotación hacia la Izq
-      digitalWrite(rotacionIzq, HIGH);
-      digitalWrite(ledRojo, HIGH);
-      delay(5000);
-      digitalWrite(ledRojo, LOW);
-      delay(5000);
-      digitalWrite(rotacionIzq, LOW);
-      
-      digitalWrite(alarma, HIGH);
-      delay(5000);
-      digitalWrite(alarma, LOW);
-      
-      // Rotación hacia la Der
-      digitalWrite(rotacionDer, HIGH);
-      digitalWrite(ledVerde, HIGH);
-      delay(4000);
-      digitalWrite(ledVerde, LOW);
-      delay(6000);
-      digitalWrite(rotacionDer, LOW);
-	}
-     */
+} 
